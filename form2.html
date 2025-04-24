@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+
+<body>
+    <form action="https://formsubmit.co/paulo.r.silva125@aluno.senai.br " method="post" style="max-width: 500px; margin: auto; font-family: Arial, sans-serif;">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+        <input type="hidden" name="_captcha" value="false">
+
+        <h1 style="text-align: center;">Formulário de Contato</h1>
+
+        <div>
+            <label for="name">Nome</label><br>
+            <input type="text" name="name" id="name" maxlength="30" placeholder="Nome e sobrenome" autofocus required
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" maxlength="50" placeholder="E-mail@email.com" required autocomplete
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="tel">Telefone</label><br>
+            <input type="tel" name="tel" id="tel" maxlength="11" placeholder="(XX) XXXXX-XXXX" autocomplete="on"
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="curriculum">Currículo</label><br>
+            <input type="file" name="curriculum" id="curriculum"
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="message">Mensagem</label><br>
+            <textarea name="message" id="message" rows="5" cols="20" maxlength="200" placeholder="Digite aqui a sua mensagem" required
+                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" id="submit" value="Enviar"
+                style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+        </div>
+    </form>
+</body>
+
+</html>
